@@ -4,7 +4,7 @@ import { auth } from "@/lib/auth";
 import { LoginCard } from "@/components/auth/login-card";
 
 export const metadata: Metadata = {
-  title: "Sign In",
+  title: "Sign In | InsightFlow",
   description: "Sign in to InsightFlow with your GitHub account.",
 };
 
