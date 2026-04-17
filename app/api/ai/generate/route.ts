@@ -137,7 +137,7 @@ Either way, I hope the frameworks in my last email were useful.
       model: geminiFlash,
       system: systemPrompt,
       prompt: userPrompt,
-      maxTokens: 1200,
+      maxCompletionTokens: 1200,
     });
 
     return NextResponse.json({ content: text });
