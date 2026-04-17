@@ -44,7 +44,7 @@ export async function POST(req: Request) {
       system:
         "You are a SaaS growth analyst. Return exactly 3 actionable bullet-point recommendations based on the metrics provided. Format each as a bold title followed by a concise explanation. Use • as bullet markers.",
       prompt: `Analyze these SaaS metrics and provide 3 specific growth recommendations: ${JSON.stringify(metrics)}`,
-      maxCompletionTokens: 500,
+      
     });
 
     return NextResponse.json({ insight: text });
