@@ -31,7 +31,7 @@ export function LoginCard() {
     <div className="flex min-h-screen w-full items-center justify-center p-4 md:p-6">
       <div className="grid w-full max-w-6xl md:grid-cols-2 shadow-lg rounded-xl">
         {/* Left Card – Image */}
-        <Card className="overflow-hidden  rounded-none shadow-lg py-0 md:block hidden">
+        <Card className="overflow-hidden border-none rounded-none shadow-lg py-0 md:block hidden">
           <div className="relative h-full min-h-[300px] w-full md:h-full">
             <Image
               src="/login-image.webp" // Replace with your image path
