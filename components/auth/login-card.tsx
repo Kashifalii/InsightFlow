@@ -34,7 +34,7 @@ export function LoginCard() {
         <Card className="overflow-hidden  rounded-none shadow-lg py-0 md:block hidden">
           <div className="relative h-full min-h-[300px] w-full md:h-full">
             <Image
-              src="/login-image.jpg" // Replace with your image path
+              src="/login-image.webp" // Replace with your image path
               alt="Analytics dashboard illustration"
               fill
               className="object-cover w-full h-full"
@@ -45,7 +45,7 @@ export function LoginCard() {
 
         {/*  Right Card – Brand, Features & GitHub Button */}
         <Card className="flex flex-col rounded-none text-center border-0 ">
-          <CardHeader className="pb-4">
+          <CardHeader className="pb-2 pt-2">
             <div className="flex flex-col items-center gap-2">
               <div className="flex size-15 items-center justify-center rounded-sm bg-primary">
                 <Zap className="h-5 w-5 text-primary-foreground" />
